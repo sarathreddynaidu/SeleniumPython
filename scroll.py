@@ -25,3 +25,5 @@ time.sleep(2)
 
 # Scroll to end of page
 driver.execute_script("window.scrollBy(0, document.body.scrollHeight)")
+
+driver.quit()
