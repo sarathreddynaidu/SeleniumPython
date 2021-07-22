@@ -1,9 +1,8 @@
 import openpyxl
 
-filePath = "C:\SeleniumPython\SampleData\DataDrivenTesting.xlsx"
+filePath = "C:\SeleniumPython\DataDrivenTesting\SampleData.xlsx"
 
 workbook = openpyxl.load_workbook(filePath)
-
 sheet = workbook.active
 # If there are multiple sheets use - workbook.get_sheet_by_name("Sheet1")
 
