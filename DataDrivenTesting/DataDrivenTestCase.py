@@ -7,7 +7,6 @@ driver.get("http://demo.guru99.com/test/newtours/index.php")
 driver.maximize_window()
 
 filePath = "C:\SeleniumPython\DataDrivenTesting\creds.xlsx"
-workbook = openpyxl.load_workbook(filePath)
 
 rows = utils.getRowCount(filePath, "Sheet1")
 
