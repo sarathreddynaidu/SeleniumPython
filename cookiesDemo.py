@@ -27,4 +27,11 @@ cookies = driver.get_cookies()  # Do this after adding/deleting cookies
 print(cookies)
 print(len(cookies))
 
+# Delete all cookies
+driver.delete_all_cookies()
+print("Deleting all cookies")
+cookies = driver.get_cookies()  # Do this after adding/deleting cookies
+print(cookies)
+print(len(cookies))
+
 driver.quit()
