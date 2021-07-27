@@ -1,0 +1,8 @@
+WARNING:root:Warning message
+ERROR:root:Error message
+CRITICAL:root:Critical message
+2021-07-26 22:36:42,180: DEBUG: Debug message
+2021-07-26 22:36:42,180: INFO: Info message
+2021-07-26 22:36:42,180: WARNING: Warning message
+2021-07-26 22:36:42,180: ERROR: Error message
+2021-07-26 22:36:42,180: CRITICAL: Critical message
